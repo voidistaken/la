@@ -17,12 +17,12 @@ const Footer = () => {
             </h4>
             <ul className="footer-links ">
               <li>
-                <Link to="/login" className="text-gray-300 hover:underline  ">
+                <Link to="#" className="text-gray-300 hover:underline  ">
                   HOW WE WORK
                 </Link>
               </li>
               <li>
-                <Link to="#" className="text-gray-300 hover:underline  ">
+                <Link to="/terms" className="text-gray-300 hover:underline  ">
                   WHY US ?
                 </Link>
               </li>
@@ -47,12 +47,12 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="#" className="text-gray-300 hover:underline  ">
+                <Link to="/help" className="text-gray-300 hover:underline  ">
                   TERMS OF USE
                 </Link>
               </li>
               <li>
-                <Link to="#" className="text-gray-300 hover:underline  ">
+                <Link to="/help" className="text-gray-300 hover:underline  ">
                   PRIVACY POLICY
                 </Link>
               </li>
@@ -82,7 +82,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="#" className="text-gray-300 hover:underline  ">
+                <Link to="/contact" className="text-gray-300 hover:underline  ">
                   CONTACT US
                 </Link>
               </li>
@@ -114,7 +114,7 @@ const Footer = () => {
         <div className="flex items-center justify-between    ">
           <div className="md:text-sm  text-xs w-[400px] ">
             <p className="">&copy; 2024 She Drive Tous droits réservés.</p>
-            <p className="">Sidi Maarouf, Casa, Maroc</p>
+            <p className=""> CasaBlanca Maroc</p>
             </div>
           <div className="flex space-x-6">
             <Link to="#" className="hover:underline md:block hidden">

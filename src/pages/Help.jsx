@@ -19,39 +19,38 @@ export default function Help() {
             <i className="bi bi-clipboard-fill"></i> Terms And Services
           </h3>
           <Accordion>
-      <AccordionItem key="1" aria-label="Accordion 1" title="Suivi en Temps Réel " indicator={({ isOpen }) => (isOpen ? <BiChevronLeft  /> : <BiChevronRight />)} className="text-black-400 font-bold  items-center">
-      <p className="text-black-600 font-normal ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+      <AccordionItem key="1" aria-label="Accordion 1" title="Safety Measures " indicator={({ isOpen }) => (isOpen ? <BiChevronLeft  /> : <BiChevronRight />)} className="text-black-400 font-bold  items-center">
+      <p className="text-black-600 font-normal ">Your safety is our priority. SheDrive implements safety features and conducts background checks on all drivers, Report any safety concerns or incidents promptly through the app.</p>
 
       </AccordionItem>
-      <AccordionItem key="2" aria-label="Accordion 2" title="Détails du Conducteur " indicator={({ isOpen }) => (isOpen ? <BiChevronLeft  /> : <BiChevronRight />)}  className="text-black-400 font-bold  items-center">
-      <p className="text-black-600 font-normal ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+      <AccordionItem key="2" aria-label="Accordion 2" title=" Code of Conduct " indicator={({ isOpen }) => (isOpen ? <BiChevronLeft  /> : <BiChevronRight />)}  className="text-black-400 font-bold  items-center">
+      <p className="text-black-600 font-normal ">Users and drivers are expected to treat each other with respect and courtesy , Any form of harassment, discrimination, or inappropriate behavior is strictly prohibited.</p>
 
       </AccordionItem>
-      <AccordionItem key="3" aria-label="Accordion 3" title="Sélection de Destination " indicator={({ isOpen }) => (isOpen ? <BiChevronLeft  /> : <BiChevronRight />)}  className="text-black-400 font-bold  items-center">
-      <p className="text-black-600 font-normal ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+      <AccordionItem key="3" aria-label="Accordion 3" title=" Privacy " indicator={({ isOpen }) => (isOpen ? <BiChevronLeft  /> : <BiChevronRight />)}  className="text-black-400 font-bold  items-center">
+      <p className="text-black-600 font-normal ">Your privacy is important. Refer to our Privacy Policy for details on how we collect, use, and disclose your information.</p>
 
       </AccordionItem>
-      <AccordionItem key="4" aria-label="Accordion 4" title="Itinéraire Optimal" indicator={({ isOpen }) => (isOpen ? <BiChevronLeft  /> : <BiChevronRight />)}  className="text-black-400 font-bold  items-center">
-      <p className="text-black-600 font-normal ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+      <AccordionItem key="4" aria-label="Accordion 4" title="Account Registration" indicator={({ isOpen }) => (isOpen ? <BiChevronLeft  /> : <BiChevronRight />)}  className="text-black-400 font-bold  items-center">
+      <p className="text-black-600 font-normal ">You agree to provide accurate and complete information during the registration process , You are responsible for maintaining the confidentiality of your account credentials.</p>
 
       </AccordionItem>
-      <AccordionItem key="5" aria-label="Accordion 5" title="Notifications Personnalisées" indicator={({ isOpen }) => (isOpen ? <BiChevronLeft  /> : <BiChevronRight />)}  className="text-black-400 font-bold  items-center">
-      <p className="text-black-600 font-normal ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+      <AccordionItem key="5" aria-label="Accordion 5" title="Service Usage" indicator={({ isOpen }) => (isOpen ? <BiChevronLeft  /> : <BiChevronRight />)}  className="text-black-400 font-bold  items-center">
+      <p className="text-black-600 font-normal ">SheDrive provides a platform for women to connect with female drivers for transportation services, Any use of the Service for illegal or unauthorized purposes is strictly prohibited.</p>
 
       </AccordionItem>
-      <AccordionItem key="6" aria-label="Accordion 6" title="Historique des Trajets" indicator={({ isOpen }) => (isOpen ? <BiChevronLeft  /> : <BiChevronRight />)}  className="text-black-400 font-bold  items-center">
-      <p className="text-black-600 font-normal ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+      <AccordionItem key="7" aria-label="Accordion 7" title="Eligibility" indicator={({ isOpen }) => (isOpen ? <BiChevronLeft  /> : <BiChevronRight />)}  className="text-black-400 font-bold  items-center">
+      <p className="text-black-600 font-normal ">SheDrive is exclusively designed for women. To use our service, you must identify as a woman , Drivers must also identify as women and undergo a thorough screening process.</p>
+      </AccordionItem>
+
+      <AccordionItem key="6" aria-label="Accordion 6" title="Modifications" indicator={({ isOpen }) => (isOpen ? <BiChevronLeft  /> : <BiChevronRight />)}  className="text-black-400 font-bold  items-center">
+      <p className="text-black-600 font-normal ">SheDrive may update or modify these Terms at any time. Continued use of the Service constitutes acceptance of the revised Terms.</p>
 
       </AccordionItem>
-      <AccordionItem key="7" aria-label="Accordion 7" title="Options de Paiement" indicator={({ isOpen }) => (isOpen ? <BiChevronLeft  /> : <BiChevronRight />)}  className="text-black-400 font-bold  items-center">
-      <p className="text-black-600 font-normal ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-      </AccordionItem>
-      <AccordionItem key="8" aria-label="Accordion 8" title="Réactions et Évaluations" indicator={({ isOpen }) => (isOpen ? <BiChevronLeft  /> : <BiChevronRight />)}  className="text-black-400 font-bold ">
-        <p className="text-black-600 font-normal ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-      </AccordionItem>
+
     </Accordion>
           <div className="para">
-            
+            <p className="font-bold text-center  text-black relative top-3">Thank you for choosing SheDrive!</p>
             
             <h5 className="text-gray-600 font-bold inline-flex gap-2 items-center text-xl">              
             </h5>{" "}

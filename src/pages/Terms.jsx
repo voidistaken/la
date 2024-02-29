@@ -13,7 +13,7 @@ export default function Terms() {
             <div className="flex flex-col justify-center items-center gap-6">
               <div className="text-center ml-8 gap-5 flex flex-col ">
                 <h1 className="font-semibold text-4xl justify-center items-center relative md:relative top-[50px] md:top-0 -left-[15px] -md:left-0 ">About us</h1>
-                <p className="font-semibold text-xl relative md:relative top-[80px] md:top-0  -left-[15px] -md:left-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                <p className="font-semibold text-xl relative md:relative top-[80px] md:top-0  -left-[15px] -md:left-0">Welcome to SheDrive, where safety meets convenience on the road! SheDrive is not just a ride-hailing service; it's a dedicated platform designed exclusively for women. We understand the importance of a safe and comfortable journey, and that's why SheDrive is here to redefine your transportation experience.</p>
               </div>
 
             </div>
