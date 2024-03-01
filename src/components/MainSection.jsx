@@ -5,7 +5,7 @@ const MainSection = () => {
   const nav = useNavigate();
 
   return (
-    <main className="my-[70px] w-[90%] mx-auto flex flex-col justify-center gap-12  ">
+    <main className="my-[70px] w-[90%] mx-auto  flex flex-col md:flex md:flex-col justify-center gap-12 md:overflow-hidden  ">
     <Card className="py-4 md:hidden  bg-gray-100 rounded-xl ">
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start  ">
         <p className=" uppercase font-bold text-center relative left-[80px] ">We’re different</p>
@@ -22,7 +22,7 @@ const MainSection = () => {
       </CardBody>
     </Card>
     <div className="bg-gray-900 mb-14 w-[200px] -mt-5 h-1 md:mb-0 sm:hidden block  relative -bottom-[50px] left-[60px]"></div>
-      <div className="p-8 w-[650px]  flex-col gap-2 top-[20px] ">
+    <div className="p-8 w-[650px]  flex-col gap-2 top-[20px] ">
         <div className="bg-gray-900  mb-12 w-[200px] top-[10px] h-1 md:mb-0 relative bottom-11 left-[400px]"></div>
         <h1 className="text-5xl text-rose-400 hidden md:block md:relative  md:bottom-5 left-[400px] top-[20px]">We’re different</h1>
         <p style={{ fontSize: "18px" }} className="text-gray-800 hidden md:block left-[400px] top-[40px]  relative">
@@ -64,7 +64,7 @@ const MainSection = () => {
 
     <div className="bg-gray-900 sm:hidden block mb-12 w-[200px] h-1 md:mb-0  relative bottom-[500px] left-[60px]"></div>
 
-      <div className=" flex-col items-center w-full gap-8 mb:block  ">
+      <div className=" flex-col items-center w-full gap-8 mb:block md:flex md:flex-col    ">
         <div className="flex flex-row gap-4 ">
           <img
             style={{ position: "relative", bottom: "200px", left: "43px" }}
@@ -91,8 +91,8 @@ const MainSection = () => {
           </div>
         </div>
         <div
-          className="flex flex-row-reverse gap-4"
-          style={{ position: "relative", bottom: "29px" }}
+          className="flex flex-row-reverse gap-4  md:flex md:flex-row-reverse md:gap-[300px] "
+         
         >
           <img width={550} className="md:block hidden rounded-lg" src="https://images.unsplash.com/photo-1518803331006-b3d0aca60d2b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" height={500} />
           <div className="p-8 w-[650px]  flex-col gap-2 md:block hidden">
@@ -137,14 +137,14 @@ const MainSection = () => {
     </Card>
 
     
-        <div className=" gap-4 md:block hidden">
+        <div className=" gap-4 mb:block hidden md:flex md:flex-row md:gap-[300px] ">
           <img
             width={550}
             className="rounded-lg"
             src="https://images.unsplash.com/photo-1555817129-2fa6b81bd8e5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             style={{ position: "relative", left: "25px" }}
           />
-          <div className=" relative left-[900px] bottom-[250px]">
+          <div className=" ">
           <div
             className="bg-gray-900 relative  bottom-[20px] left-9   w-[200px] h-1"
           ></div>
@@ -152,7 +152,7 @@ const MainSection = () => {
             className="p-8 w-[650px] flex flex-col gap-2 "
            
           >
-            <h1 className="text-5xl text-rose-400 md:relative md:bottom-5 ">Supportive Community</h1>
+            <h1 className="text-5xl text-rose-400 md:relative md:bottom-5  ">Supportive Community</h1>
             <p className="text-gray-900" style={{ fontSize: "18px" }}>
               Join a network of like-minded women who value safety and
               empowerment. Our platform goes beyond transportation – it's a
@@ -163,10 +163,10 @@ const MainSection = () => {
         </div>
         <div className="hidden md:block">
         <div
-          className="flex flex-row-reverse gap-4  "
+          className="md:flex md:flex-row-reverse  md:gap-[300px] hidden mb:block   "
           style={{ position: "relative", bottom: "29px" }}>
-          <img width={550} className="rounded-lg md:block hidden" src="https://images.unsplash.com/photo-1578041262130-633307b3bfd6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" height={500} />
-          <div className="p-8 w-[650px]  flex-col gap-2 md:block hidden">
+          <img width={550} className="rounded-lg " src="https://images.unsplash.com/photo-1578041262130-633307b3bfd6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" height={500} />
+          <div className="p-8 w-[650px]  flex-col gap-2 ">
             <div className="bg-gray-900 mb-12 w-[200px] h-1"></div>
             <h1 className="text-5xl text-rose-400 md:relative md:bottom-5">Empowerment Initiatives</h1>
             <p className="text-gray-900" style={{ fontSize: "18px" }}>
@@ -177,14 +177,14 @@ const MainSection = () => {
           </div>
           </div>
         </div>
-        <div className=" flex-row gap-4 md:block hidden ">
+        <div className=" flex-row gap-4 mb:block hidden md:flex md:flex-row md:gap-[300px] ">
           <img
             width={550}
             className="rounded-lg"
             src="https://images.unsplash.com/photo-1633613286848-e6f43bbafb8d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             style={{ position: "relative", left: "25px" }}
           />
-          <div className="md:block hidden relative left-[900px] bottom-[350px]">
+          <div className="relative md:relative md:left-0 md:bottom-0 left-[900px] bottom-[350px]">
           <div
             className="bg-gray-900  top-11  w-[200px] h-1 relative left-[40px] "
           ></div>

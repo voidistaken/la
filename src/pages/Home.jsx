@@ -3,8 +3,8 @@ import Footer from "../components/Footer";
 import MainSection from "../components/MainSection";
 const Home = () => {
   return (
-    <div className="overflow-hidden">
-      <Hero />
+    <div className="  md:overflow-visible  overflow-clip">
+      <Hero  />
       <MainSection />
       <Footer />
     </div>

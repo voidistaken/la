@@ -5,7 +5,8 @@ const Hero = () => {
   const nav = useNavigate();
 
   return (
-    <div className="">
+     <div className=" overflow-auto md:overflow-clip">
+    <div >
       <div className="h-[643px] w-[2050px]  bg-black relative flex items-center px-80">
       <div className="relative overflow-hidden hidden sm:flex sm:items-center sm:px-34 sm:w-[1600px] sm:h-[643px] sm:mr-[40px] sm:ml-[-340px]">
     <img src="https://images.unsplash.com/photo-1619722087489-f0b1a6fdbc6d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Women" className="w-full h-[100%]" />
@@ -39,6 +40,7 @@ const Hero = () => {
 
         </div>
       </div>
+    </div>
     </div>
   );
 };
